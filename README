@@ -1,0 +1,17 @@
+# TransferLearningCapsNet
+Transfer Learning For Capsule Network
+
+The state-of-the-art methodology for image recognition used to be convolutional neural networks however it has a drawback, which as per Sabour, Sara; Frosst, Nicholas; Hinton, Geoffrey E. doesn’t capture the positional and spatial orientation of the image. This drawback was primarily due to the pooling layer. To address this concern came the next best in neural networks, named capsule networks, given to us by Sabour, Sara; Frosst, Nicholas; Hinton, Geoffrey E.
+Capsule networks implement routing by agreement where the chances of retaining the spatial orientation, and feature mapping also, is very high.
+This thesis advances the knowledge of capsule network to the next level, by showing an architecture of capsule networks that can be used for transferring learning from one model to another.
+This thesis intends to apply transfer learning to capsule neural networks, I would like to demonstrate the usage of transfer learning to reduce the training data and time. I intend to show that using EMNIST dataset, we can achieve transfer learning, from one data set to another.
+
+Usage:      python capsulenet.py
+These scripts have been developed based on :
+Platform: Anaconda Version 3 
+Hardware: Intel Xeon CPU E3-1225 v5 @ 3.30 Ghz, 4 Core processor, running Windows server 2016 with 16 GB ram, 1 TB HDD.
+Inside Alphabets, Digits and TrasnferLearning there are atleast three files : capsulenet.py, capsulelayers.py and utils.py
+capsulenet.py needs to be executed in all of these directories, in the order: Alphabets, Digits, TransferLearning.
+Before executing capsulenet.py in TransferLearning, execute first capsulenet.py in Alphabets, followed by Digits.
+When the script is executed in TransferLearning, choose from option 1 till option 10, one after another.
+You need to run the script once for executing one of the options.
